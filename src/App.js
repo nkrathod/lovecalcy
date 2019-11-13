@@ -40,11 +40,11 @@ class App extends Component{
 			  				
 			  			}
 
-		if(errors != "") {
+		if(errors !== "") {
 			
 			this.setState({result:errors });
 		} 
-		if(errors == "") {
+		if(errors === "") {
 			
 			this.setState({result:lovedata+"%"});
 		}  
